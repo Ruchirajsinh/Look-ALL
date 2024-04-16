@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 42.8vw;
+    background-image: url("./download.jpg");
+    background-size: cover;
+    padding: 0 8%;
+    background-position: center;
+
+}
+.logo{
+    width: 70px;
+    height: 100px;
+    padding: 20px 0;
+    cursor: pointer;
+border-radius: 35px;
+}
+.content{
+    top: 18%;
+    position: absolute;
+    transform: translate(-50%);
+    color: #fff;
+    margin: 150px;
+}
+.content h1 span{
+ color: #ff3753;
+}
+.content button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    padding: 12px 25px ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 15px;
+    margin-left: 0;
+}
+.content i{
+    width: 20px;
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+.r-img {
+    width: 100px;
+    border-radius: 20pc;
+    bottom: 0;
+    right: 10%;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 140px;
+    animation: r-img 4s linear infinite;
+}
+@keyframes r-img{
+0%{
+    bottom: 0;
+    opacity: 0;
+}
+100%{
+    bottom: 105%;
+    opacity: 1;
+}
+}
+
+/* @media qeries */
+
+
+@media only screen and (max-width: 1600px) {
+    .container {
+        font-size: 20px;
+        line-height: 47px;
+  
+    }
+}
+@media only screen and (max-height: 1600px) {
+    .container {
+        font-size: 20px;
+        line-height: 47px;
+        height: 665px;
+    }
+}
+

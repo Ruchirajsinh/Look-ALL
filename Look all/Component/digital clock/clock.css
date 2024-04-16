@@ -1,0 +1,763 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #08001f, #30197d);
+    color: #fff;
+    position: relative;
+
+}
+.container{
+    width: 800px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.clock{
+    width: 100%;
+    height: 100%;
+    background: rgba(235, 0, 255, 0.11);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(40px);
+}
+.container::before{
+    content: '';
+    width: 180px;
+    height: 180px;
+    background: #f41b75;
+    border-radius: 5px;
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    z-index: -1;
+}
+.container::after{
+    content: '';
+    width: 180px;
+    height: 180px;
+    background: #419aff;
+    border-radius: 50%;
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+    z-index: -1;
+}
+.clock span{
+    font-size: 80px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.clock span::after{
+ 
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#hrs::after{
+    content: 'HOURS';
+}
+#min::after{
+    content: 'MINS';
+}
+#sec::after{
+    content: 'SEC';
+}
+
+/* @media only screen  and (min-width: 380px){ */
+    .hero{
+        width: 480px;
+        min-height: 680px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    body {
+        width: 324px;
+    }
+    .container {
+        width: 150px;
+    }
+    .container::before {
+     
+        width: 70px;
+        height: 70px;
+        left: -27px;
+        top: -32px;
+    }
+    .clock {
+        width: 150px;
+    }
+    .clock span {
+        font-size: 40px;
+    }
+    .container::after {
+      
+        width: 90px;
+        height: 90px;
+        right: -45px;
+        bottom: -30px;
+    }
+    .clock span::after {
+        font-size: 16px;
+     
+        bottom: -15px;
+        left: 64%;
+    }
+    
+    /* } */
+@media only screen  and (min-width: 480px){
+.hero{
+    width: 480px;
+    min-height: 680px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    width: 324px;
+}
+.container {
+    width: 150px;
+}
+.container::before {
+ 
+    width: 70px;
+    height: 70px;
+    left: -27px;
+    top: -32px;
+}
+.clock {
+    width: 150px;
+}
+.clock span {
+    font-size: 40px;
+}
+.container::after {
+  
+    width: 90px;
+    height: 90px;
+    right: -45px;
+    bottom: -30px;
+}
+.clock span::after {
+    font-size: 16px;
+ 
+    bottom: -15px;
+    left: 64%;
+}
+
+}
+@media only screen  and (max-width: 480px){
+    .hero{
+        width: 577px;
+        min-height: 666px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    body {
+        width: 324px;
+    }
+    .container {
+        width: 190px;
+    }
+    .container::before {
+     
+        width: 70px;
+        height: 70px;
+        left: -27px;
+        top: -32px;
+    }
+    .clock {
+        width: 190px;
+    }
+    .clock span {
+        font-size: 40px;
+    }
+    .container::after {
+      
+        width: 90px;
+        height: 90px;
+        right: -45px;
+        bottom: -30px;
+    }
+    .clock span::after {
+        font-size: 16px;
+     
+        bottom: -15px;
+        left: 64%;
+    }
+    
+    }
+    @media only screen and (min-width: 580px)  {
+        .hero {
+            width: 737px;
+            height: 854px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            width: 324px;
+        }
+        .container {
+            width: 210px;
+        }
+        .container::before {
+         
+            width: 70px;
+            height: 70px;
+            left: -27px;
+            top: -32px;
+        }
+        .clock {
+            width: 210px;
+        }
+        .clock span {
+            font-size: 40px;
+        }
+        .container::after {
+          
+            width: 90px;
+            height: 90px;
+            right: -45px;
+            bottom: -30px;
+        }
+        .clock span::after {
+            font-size: 16px;
+         
+            bottom: -15px;
+            left: 64%;
+        }
+        
+     }
+    
+ @media only screen and (min-width: 768px)  {
+    .hero {
+        width: 771px;
+        height: 473px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    body {
+        width: 324px;
+    }
+    .container {
+        width: 300px;
+    }
+    .container::before {
+     
+        width: 70px;
+        height: 70px;
+        left: -27px;
+        top: -32px;
+    }
+    .clock {
+        width: 300px;
+    }
+    .clock span {
+        font-size: 40px;
+    }
+    .container::after {
+      
+        width: 90px;
+        height: 90px;
+       
+        right: -40px;
+        bottom: -30px;
+    }
+    .clock span::after {
+        font-size: 16px;
+     
+        bottom: -15px;
+        left: 64%;
+    }
+    
+ }
+@media only screen and (min-width: 992px){
+    .hero{
+        width: 1090px;
+        height: 739px;
+
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    body {
+        width: 324px;
+    }
+    .container {
+        width: 350px;
+    }
+    .container::before {
+     
+        width: 70px;
+        height: 70px;
+        left: -27px;
+        top: -32px;
+    }
+    .clock {
+        width: 350px;
+    }
+    .clock span {
+        font-size: 40px;
+    }
+    .container::after {
+      
+        width: 90px;
+        height: 90px;
+        right: -45px;
+        bottom: -30px;
+    }
+    .clock span::after {
+        font-size: 16px;
+     
+        bottom: -15px;
+        left: 64%;
+    }
+
+}
+@media only screen  and (min-width: 1100px){
+    .hero{
+        width: 1358px;
+        height: 832px;
+       
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    body {
+        width: 324px;
+    }
+    .container {
+        width: 410px;
+    }
+    .container::before {
+     
+        width: 70px;
+        height: 70px;
+        left: -27px;
+        top: -32px;
+    }
+    .clock {
+        width: 410px;
+    }
+    .clock span {
+        font-size: 40px;
+    }
+    .container::after {
+      
+        width: 90px;
+        height: 90px;
+        right: -45px;
+        bottom: -30px;
+    }
+    .clock span::after {
+        font-size: 16px;
+     
+        bottom: -15px;
+        left: 64%;
+    }
+    
+    }
+    @media only screen and (min-width: 1400px)  {
+        .hero {
+            width: 1595px;
+            height: 762px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            width: 324px;
+        }
+        .container {
+            width: 510px;
+        }
+        .container::before {
+         
+            width: 70px;
+            height: 70px;
+            left: -27px;
+            top: -32px;
+        }
+        .clock {
+            width: 510px;
+        }
+        .clock span {
+            font-size: 40px;
+        }
+        .container::after {
+          
+            width: 90px;
+            height: 90px;
+            right: -45px;
+            bottom: -30px;
+        }
+        .clock span::after {
+            font-size: 16px;
+         
+            bottom: -15px;
+            left: 64%;
+        }
+        
+     }
+     @media only screen and (min-width: 1600px)  {
+        .hero {
+            width: 1982px;
+            height: 812px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            width: 324px;
+        }
+        .container {
+            width: 590px;
+        }
+        .container::before {
+         
+            width: 70px;
+            height: 70px;
+            left: -27px;
+            top: -32px;
+        }
+        .clock {
+            width: 590px;
+        }
+        .clock span {
+            font-size: 40px;
+        }
+        .container::after {
+          
+            width: 90px;
+            height: 90px;
+            right: -45px;
+            bottom: -30px;
+        }
+        .clock span::after {
+            font-size: 16px;
+         
+            bottom: -15px;
+            left: 64%;
+        }
+        
+     }
+     @media only screen and (min-width: 2000px)  {
+        .hero {
+            width: 2190px;
+            height: 742px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            width: 324px;
+        }
+        .container {
+            width: 650px;
+        }
+        .container::before {
+         
+            width: 70px;
+            height: 70px;
+            left: -27px;
+            top: -32px;
+        }
+        .clock {
+            width: 650px;
+        }
+        .clock span {
+            font-size: 40px;
+        }
+        .container::after {
+          
+            width: 90px;
+            height: 90px;
+            right: -45px;
+            bottom: -30px;
+        }
+        .clock span::after {
+            font-size: 21px;
+         
+            bottom: -21px;
+            left: 52%;
+        }
+        
+     }
+
+     @media only screen and (min-width: 2200px)  {
+        .hero {
+            width: 2382px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            width: 324px;
+        }
+        .container {
+            width: 720px;
+        }
+        .container::before {
+            width: 130px;
+            height: 130px;
+            left: -52px;
+            top: -56px;
+        }
+        .clock {
+            width: 720px;
+        }
+        .clock span {
+            font-size: 40px;
+        }
+        .container::after {
+          
+            width: 130px;
+            height: 130px;
+            right: -65px;
+            bottom: -68px;
+        
+        }
+        .clock span::after {
+            font-size: 30px;
+         
+            bottom: -37px;
+            left: 57%;
+        }
+        
+     }
+     @media only screen and (min-width: 2400px)  {
+        .hero {
+            width: 2994px;
+            height: 838px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            width: 324px;
+        }
+        .container {
+            width: 800px;
+        }
+        .container::before {
+         
+            width: 130px;
+            height: 130px;
+            left: -52px;
+            top: -56px;
+        }
+        .clock {
+            width: 800px;
+        }
+        .clock span {
+            font-size: 60px;
+        }
+        .container::after {
+          
+            width: 130px;
+            height: 130px;
+            right: -65px;
+            bottom: -68px;
+        }
+        .clock span::after {
+            font-size: 40px;
+         
+            bottom: -37px;
+            left: 57%;
+        }
+        
+     }
+
+
+     @media only screen and (min-width: 3000px)  {
+        .hero {
+            width: 3491px;
+            min-height: 775px;
+            
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            width: 324px;
+        }
+        .container {
+            width: 1000px;
+            height: 220px;
+        }
+        .container::before {
+            width: 150px;
+            height: 150px;
+            left: -75px;
+            top: -75px;
+        }
+        .clock {
+            width: 1000px;
+        }
+        .clock span {
+            font-size: 80px;
+        }
+        .container::after {
+          
+            width: 150px;
+            height: 150px;
+            right: -75px;
+            bottom: -75px;
+        
+        }
+        .clock span::after {
+            font-size: 30px;
+         
+            bottom: -37px;
+            left: 57%;
+        }
+        
+     }
+     @media only screen and (min-width: 3500px)  {
+        .hero {
+            width: 4232px;
+            height: 413px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            width: 324px;
+        }
+        .container {
+            width: 1200px;
+            height: 220px;
+        }
+        .container::before {
+            width: 180px;
+            height: 180px;
+            left: -95px;
+            top: -95px;
+        }
+        .clock {
+            width: 1200px;
+        }
+        .clock span {
+            font-size: 100px;
+        }
+        .container::after {
+          
+            width: 180px;
+            height: 180px;
+            right: -95px;
+            bottom: -95px;
+        
+        }
+        .clock span::after {
+            font-size: 30px;
+         
+            bottom: -37px;
+            left: 57%;
+        }
+        
+     }
+     @media only screen and (min-width: 4260px)  {
+        .hero {
+            width: 5112px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            width: 324px;
+        }
+        .container {
+            width: 1500px;
+            height: 300px;
+        }
+        .container::before {
+            width: 210px;
+            height: 210px;
+            left: -110px;
+            top: -110px;
+        }
+        .clock {
+            width: 1500px;
+        }
+        .clock span {
+            font-size: 120px;
+        }
+        .container::after {
+          
+            width: 210px;
+            height: 210px;
+            right: -110;
+            bottom: -110x;
+        
+        }
+        .clock span::after {
+            font-size: 60px;
+         
+            bottom: -45px;
+            left: 77%;
+        }
+        
+     }

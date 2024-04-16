@@ -1,0 +1,75 @@
+@media only screen and (max-width: 375px) {
+    a.btn.btn-outline-success.middel-button{
+        margin-right: auto;
+    }
+  }
+nav.navbar.navbar-expand-lg.bg-{
+    height:40px;
+}
+img.img-fluid.rounded-start{
+    margin: 40px;
+}
+
+
+.row.row-cols-1.row-cols-md-3.g-4 {
+    width: max-content;
+    margin-top: -85px;
+    margin-left: 52px;
+}
+.card.mb-3 {
+    margin-right: 195px;
+    margin-left: 105px;
+}
+
+a.btn.btn-outline-success.middel-button {
+    margin-top: 6px;
+    margin-left: 992px;
+}
+img.img-fluid.rounded-start {
+    margin: 11px;
+}
+img.card-img-top {
+    width: 200px;
+    height: 200px;
+}
+.row.row-cols-1.row-cols-md-4.g-4 {
+    margin-left: 214px;
+}
+.row.row-cols-1.row-cols-md-3.g-4.template {
+    margin-left: 275px;
+}
+@media only screen and (max-width: 768px) {
+    .card.h-100 {
+        margin-left: -197px !important;
+        top: 70px;
+    }
+
+  } 
+  @media only screen and (max-width: 768px) {
+    .card.mb-3 {
+        margin-right: 26px;
+        margin-left: 92px;
+        top: 86px;
+    }
+
+  } 
+  .modal-content {
+    width: 300px;
+    margin-top: 400px;
+    margin-left: 572px;
+} 
+
+.floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+button.btn.text.float-end {
+
+    z-index: 999;
+    /* margin: 16px; */
+    margin-left: 1100px;
+    margin-bottom: 7px;
+}
