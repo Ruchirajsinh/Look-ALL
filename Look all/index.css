@@ -1,58 +1,42 @@
-.navbar-logo{
+img.Navbar.logo {
     width: 100px;
-    height: 100px;
+    height: 100%;
 }
-img.home.background.image {
-    position: absolute;
-    top: 0px;
-    left: 0;
-    display: block;
+.header-item.text{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+
 }
-.Home-navbar {
-    z-index: 1;
+.header-item.text:hover{
+    color: orangered;
+}
+.li.nav-item {
+    width: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-deck.card1 {
+    width: 1320px;
+    margin-left: 20px;
+}
+.card-deck.mt-5 {
+    width: 1320px;
+    margin-left: 20px;
+}
+.text h1{
+    margin-left: 500px;
 }
 
-body {
-    background: lightblue;
-  }
-    
-  h1 {
-      font-size: 50px;
-      color: black;
-      margin-left: 85px;
-      margin-top: 200px;
-  }
-  ul{
-      display: flex;
-      margin: 10px;
+li.nav-item {
+    padding: 0 10px;
+}
+.card-footer a:hover {
 
-      color: aliceblue;
-      border-radius: 12px;
-      height: 50px;
-    
-      align-items: center;
-  }
-  ul a {
-      margin: 15px;
-      color: black;
-      
-  }
-  ul a:hover{
-     color: orangered;
-  }
-  img {
-      width: 100px;
-  }
-  h2 {
-      font-size: 50px;
-      color: black;
-      margin-left: 190px;
-      margin-top: -40px;;
-  }
-  .card {
-    top: 145px;
+    color: orangered;
 }
-.text {
-    margin-top: 50px;
-}
-  
