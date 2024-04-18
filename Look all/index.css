@@ -29,14 +29,31 @@ img.Navbar.logo {
     width: 1320px;
     margin-left: 20px;
 }
-.text h1{
+/* .text h1{
     margin-left: 500px;
-}
+} */
 
 li.nav-item {
     padding: 0 10px;
 }
 .card-footer a:hover {
 
-    color: orangered;
+    color: black;
+
+}
+h1.heading {
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    left: 432px;
+    top: 27px;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.card-footer a.btn.btn-primary {
+    background-color: green;
+    border-color: green;
+} 
+.home-text h1 {
+    margin-left: 491px;
 }
