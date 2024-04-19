@@ -36,11 +36,12 @@ img.Navbar.logo {
 li.nav-item {
     padding: 0 10px;
 }
-.card-footer a:hover {
-
-    color: black;
-
+.card-footer a.btn.btn-primary:hover,a.btn.btn-primary:active {
+color: white;
+background: green;
+border-color: green;
 }
+
 h1.heading {
     justify-content: center;
     position: absolute;
@@ -49,11 +50,55 @@ h1.heading {
     top: 27px;
     font-size: xxx-large;
     font-weight: bold;
+
+
+    background: -webkit-linear-gradient(rgb(204, 24, 24), #0db6b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
+
 .card-footer a.btn.btn-primary {
-    background-color: green;
-    border-color: green;
+    background-color: blue;
+    border-color: blue;
 } 
 .home-text h1 {
     margin-left: 491px;
+}
+.card-1{
+   
+    color: black;
+}
+.card-body {
+    background: antiquewhite;
+}
+
+a.btn.btn-primary {
+    width: 367px;
+}
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-footer {
+    width: 409px;
+}
+
+/* .card-img-top{
+   transition: transform 0.5s;
+    
+} */
+/* .card-img-top:hover{
+    width: 100%;
+    cursor: pointer;
+    transform: scale(1.1);
+} */
+
+.card-img-top:hover {
+  width: 320px;
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
