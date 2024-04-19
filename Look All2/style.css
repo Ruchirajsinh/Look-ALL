@@ -527,8 +527,8 @@ h1.heading {
 
 }
 img.Navbar.logo {
-    width: 70px;
-    height: 18%;
+    width: 60px;
+    height: 20%;
     position: fixed;
     z-index: 999;
 
@@ -565,4 +565,7 @@ img.bounce-animate {
 .about-3-pic img.bounce-animate {
     border-radius: 20px;
     height: 310px;
+}
+.de-padding {
+  padding: 20rem 0;
 }
