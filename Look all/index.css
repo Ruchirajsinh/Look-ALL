@@ -85,20 +85,33 @@ a.btn.btn-primary {
     width: 409px;
 }
 
-/* .card-img-top{
+.card-img-top{
    transition: transform 0.5s;
     
-} */
+} 
+.about-2-right.wow.fadeInUp {
+    color: white;
+    background-color: #1F2430;
+    padding: 20px;
+    border-radius: 20px;
+}
+.p.mb-30 {
+    font-weight: 600;
+    color: white;
+}
+.mb-50 {
+    margin-bottom: 2rem;
+}
 /* .card-img-top:hover{
     width: 100%;
     cursor: pointer;
     transform: scale(1.1);
-} */
+}
 
-.card-img-top:hover {
+/* .card-img-top:hover {
   width: 320px;
     -webkit-transform: scale(1.3);
 	transform: scale(1.3);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-}
+} */
