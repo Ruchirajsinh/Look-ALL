@@ -611,3 +611,10 @@ p {
     border-radius: 20px;
     margin: -19px -482px 12px -1px;
 }
+.about-2.de-padding {
+  background-image: url(/105.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/*  */
